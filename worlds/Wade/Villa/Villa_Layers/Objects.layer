@@ -1,0 +1,10 @@
+$grp SCR_DestructibleBuildingEntity : "{63435DF65F8B3774}Prefabs/Structures/Wall/militarywall.et" {
+ {
+  coords 2826.235 10.197 4913.265
+  angles 0 5.513 -89.741
+ }
+ {
+  coords 2822.676 10.194 4913.569
+  angles 0.281 -83.982 -89.868
+ }
+}

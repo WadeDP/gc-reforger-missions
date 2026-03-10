@@ -1,0 +1,22 @@
+Vehicle AH6M_Armed_base1 : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.et" {
+ coords 7065.339 41.345 1416.172
+ angles 0 175.147 0
+}
+$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ MH6M4 {
+  coords 7042.708 41.344 1396.306
+  angles 0 85.185 0
+ }
+ MH6M2 {
+  coords 7044.043 41.344 1375.902
+  angles 0 85.185 0
+ }
+ MH6M6 {
+  coords 7046.694 41.245 1336.221
+  angles 0 85.185 0
+ }
+ MH6M8 {
+  coords 7045.359 41.343 1356.625
+  angles 0 85.185 0
+ }
+}
