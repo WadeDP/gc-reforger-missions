@@ -1,45 +1,3 @@
-$grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airborne/P/Group_US_Army_1982_Pilots_P.et" {
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "LINE"
-   }
-   PS_GroupCallsignAssigner "{68D821CE2492EAC6}" {
-    m_iCompanyCallsign 4
-    m_iPlatoonCallsign 2
-   }
-  }
-  coords 7043.485 41.343 1416.145
-  angles 0 138.242 0
-  m_faction "RHS_USAF"
-  m_aUnitPrefabSlots {
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
-  }
-  m_sCustomNameSet "4x MH6-J Transport"
- }
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "LINE"
-   }
-   PS_GroupCallsignAssigner "{68D821CE7635D4A4}" {
-    m_iCompanyCallsign 4
-   }
-  }
-  coords 7052.806 41.344 1411.356
-  angles 0 138.242 0
-  m_faction "RHS_USAF"
-  m_aUnitPrefabSlots {
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
-  }
-  m_sCustomNameSet "1x AH6-J"
- }
-}
 $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_Squad_P.et" {
  {
   components {
@@ -218,6 +176,16 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   m_bSetPlayable 1
  }
 }
+SCR_ChimeraCharacter : "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et" {
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   Enabled 0
+   m_sName "Pilot"
+   m_bIsPlayable 0
+  }
+ }
+ coords 7066.423 41.344 1395.039
+}
 $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_PHQ_P.et" {
  {
   components {
@@ -246,6 +214,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    }
    PS_GroupCallsignAssigner "{68D821CE5310AD49}" {
     m_iCompanyCallsign 3
+    m_iPlatoonCallsign 9
    }
   }
   coords 2583.723 164.936 3783.876
@@ -292,6 +261,103 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "TROOP 2"
+  m_bSetPlayable 1
+ }
+ S {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{68D821CE55BC8EE1}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 7057.932 41.344 1419.045
+  angles 0 93.456 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Attack Pilot Group"
+  m_bSetPlayable 1
+ }
+ G1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{68D821CE55BC8EE1}" {
+    m_iCompanyCallsign 5
+    m_iPlatoonCallsign 5
+   }
+  }
+  coords 7048.038 41.344 1404.831
+  angles 0 93.456 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Pilot"
+  m_bSetPlayable 1
+ }
+ G2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{68D821CE55BC8EE1}" {
+    m_iCompanyCallsign 5
+    m_iPlatoonCallsign 6
+   }
+  }
+  coords 7050.985 41.344 1383.806
+  angles 0 93.456 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Pilot"
+  m_bSetPlayable 1
+ }
+ G3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{68D821CE55BC8EE1}" {
+    m_iCompanyCallsign 5
+    m_iPlatoonCallsign 7
+   }
+  }
+  coords 7049.59 41.344 1362.509
+  angles 0 93.456 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+   ""
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Pilot"
+  m_bSetPlayable 1
+ }
+ G4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{68D821CE55BC8EE1}" {
+    m_iCompanyCallsign 5
+    m_iPlatoonCallsign 8
+   }
+  }
+  coords 7051.042 41.262 1341.845
+  angles 0 93.456 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Pilot"
   m_bSetPlayable 1
  }
 }
