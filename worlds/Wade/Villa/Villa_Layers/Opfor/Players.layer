@@ -3,6 +3,8 @@ SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurg
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
+  PS_GroupCallsignAssigner "{68D821CE7C62E6B5}" {
+  }
  }
  coords 2850.042 52.937 4955.824
  m_bSetPlayable 1
@@ -12,6 +14,8 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{68D821CE6250518D}" {
    }
   }
   coords 2851.954 52.938 4954.074
@@ -24,6 +28,8 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
+   PS_GroupCallsignAssigner "{68D821CE7E2E346A}" {
+   }
   }
   coords 2851.008 52.937 4950.946
   angles 0 6.213 0
@@ -34,6 +40,8 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{68D821CE7BFB1474}" {
    }
   }
   coords 2849.823 52.937 4947.609
