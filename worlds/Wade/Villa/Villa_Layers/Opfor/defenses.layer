@@ -1,3 +1,32 @@
-GenericEntity : "{8BABAE6E7F9B3E39}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_bunker_burlap.et" {
- coords 2842.617 52.938 4938.019
+Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ coords 2839.145 53.089 4964.875
+ angles 0 93.149 0
+}
+$grp StaticModelEntity : "{51AB40A39B944585}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ {
+  coords 2876.19 52.938 4987.9
+  angles 0 7.368 0
+ }
+ {
+  coords 2888.699 52.938 4977.75
+  angles 0 93.414 0
+ }
+}
+$grp GenericEntity : "{C8A95738F4ED0644}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_round_high_burlap_Deployable.et" {
+ {
+  coords 2844.743 53.09 4968.572
+  angles 0 52.888 0
+ }
+ {
+  coords 2843.49 53.124 4960.162
+  angles 0 142.078 0
+ }
+ {
+  coords 2834.522 53.062 4961.165
+  angles 0 -130.36 0
+ }
+ {
+  coords 2836.855 53.096 4969.341
+  angles 0 -14.66 0
+ }
 }
