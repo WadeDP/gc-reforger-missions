@@ -1,20 +1,44 @@
-SCR_AIGroup : "{5904B752E06F3423}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_Assault_P.et" {
+SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_PHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
  }
- coords 2844.459 61.818 4904.8
- angles 0 -174.07 0
- m_aUnitPrefabSlots +{
-  "{6EFC1ECAF37EEB81}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_Assault_P.et"
-  "{6EFC1ECAF37EEB81}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_Assault_P.et"
-  "{6EFC1ECAF37EEB81}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_Assault_P.et"
-  "{6EFC1ECAF37EEB81}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_Assault_P.et"
-  "{6EFC1ECAF37EEB81}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_Assault_P.et"
-  "{6EFC1ECAF37EEB81}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_Assault_P.et"
- }
- m_bSnapToTerrain 0
- m_sCustomNameSet "TheDudes"
+ coords 2850.042 52.937 4955.824
  m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 2851.954 52.938 4954.074
+  angles 0 5.961 0
+  m_sCustomNameSet "Cell 1"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 2851.008 52.937 4950.946
+  angles 0 6.213 0
+  m_sCustomNameSet "Cell 2"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 2849.823 52.937 4947.609
+  angles 0 9.485 0
+  m_sCustomNameSet "Cell 3"
+  m_bSetPlayable 1
+ }
 }
