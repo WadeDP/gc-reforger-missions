@@ -1,5 +1,5 @@
 Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
- coords 2839.145 53.089 4964.875
+ coords 2839.477 53.089 4964.672
  angles 0 93.149 0
 }
 $grp StaticModelEntity : "{51AB40A39B944585}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Bunker_Camouflaged_USSR_01.et" {
@@ -11,22 +11,112 @@ $grp StaticModelEntity : "{51AB40A39B944585}PrefabsEditable/Auto/Compositions/Mi
   coords 2888.699 52.938 4977.75
   angles 0 93.414 0
  }
+ {
+  coords 2784.512 52.938 4880.135
+  angles 0 -173.371 0
+ }
+ {
+  coords 2782.438 52.937 4887.546
+  angles 0 -38.299 0
+ }
+}
+$grp GenericEntity : "{932D432E1D7D726D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_Sandbag_MG_USSR_01_PKM.et" {
+ {
+  coords 2797.701 52.938 4906.698
+  angles 0 -84.024 0
+  {
+   GenericEntity {
+    ID "570C9564D02F5C92"
+    coords 0.02 0 -0.53
+    angles 0 90.188 0
+   }
+   GenericEntity {
+    ID "5C5AC612D4755239"
+    coords -0.122 0.367 0.28
+    angles 0 180 0
+   }
+   GenericEntity {
+    ID "5C5AC612D47552FB"
+    coords 0.037 0.202 0.391
+   }
+  }
+ }
+ {
+  coords 2884.075 53.014 4985.139
+  angles 0 31.032 0
+  {
+   GenericEntity {
+    ID "570C9564D02F5C92"
+    coords 0.02 0 -0.53
+    angles 0 90.188 0
+   }
+   GenericEntity {
+    ID "5C5AC612D4755239"
+    coords -0.122 0.367 0.28
+    angles 0 180 0
+   }
+   GenericEntity {
+    ID "5C5AC612D47552FB"
+    coords 0.037 0.202 0.391
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 2799.689 52.937 4913.655
+  angles 0 95.769 0
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 2802.26 53.158 4914.521
+  angles 0 4.44 0
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 2801.395 53.157 4903.192
+  angles 0 4.44 0
+ }
+}
+GenericEntity : "{BBA9E7B2D06B7E3E}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallSolidBurlap_S_USSR_01.et" {
+ coords 2799.182 52.937 4910.95
+ angles 0 96.221 0
+ {
+  GenericEntity {
+   ID "5D70BA356CD2E641"
+   coords -0.019 0 0.295
+   angles 0 -1.755 0
+  }
+ }
 }
 $grp GenericEntity : "{C8A95738F4ED0644}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_round_high_burlap_Deployable.et" {
  {
-  coords 2844.743 53.09 4968.572
-  angles 0 52.888 0
+  coords 2843.461 53.083 4965.537
+  angles 0 61.263 0
  }
  {
-  coords 2843.49 53.124 4960.162
-  angles 0 142.078 0
+  coords 2843.008 53.083 4963.116
+  angles 0 139.622 0
  }
  {
-  coords 2834.522 53.062 4961.165
-  angles 0 -130.36 0
+  coords 2836.715 53.077 4963.649
+  angles 0 -123.205 0
  }
  {
-  coords 2836.855 53.096 4969.341
-  angles 0 -14.66 0
+  coords 2836.978 53.077 4966.099
+  angles 0 -44.847 0
  }
 }
