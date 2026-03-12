@@ -21,8 +21,8 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
     DefaultFormation "Line"
    }
   }
-  coords 7117.92 44.935 1449.73
-  angles 0 -8.152 0
+  coords 7175.375 41.346 1458.505
+  angles 0 -175.291 0
   m_aUnitPrefabSlots {
    "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
    "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
@@ -30,7 +30,6 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
    "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
   }
-  m_bSnapToTerrain 0
   m_bSetPlayable 1
  }
  {
@@ -39,8 +38,8 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
     DefaultFormation "Line"
    }
   }
-  coords 7092.79 44.641 1420.816
-  angles 0 -97.598 0
+  coords 7174.742 41.344 1463.132
+  angles 0 -178.509 0
   m_aUnitPrefabSlots {
    "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
    "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
@@ -48,7 +47,6 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
    "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
   }
-  m_bSnapToTerrain 0
   m_bSetPlayable 1
  }
  {
@@ -57,8 +55,25 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
     DefaultFormation "Line"
    }
   }
-  coords 7143.435 41.345 1443.21
-  angles 0 83.044 0
+  coords 7173.959 41.344 1468.639
+  angles 0 -179.89 0
+  m_aUnitPrefabSlots {
+   "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
+   "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
+   "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
+   "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
+   "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
+  }
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7173.985 41.344 1473.184
+  angles 0 177.746 0
   m_aUnitPrefabSlots {
    "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
    "{F22FDEB1690E63D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Rifleman_P.et"
@@ -78,10 +93,13 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   }
   coords 7090.033 44.633 1431.438
   angles 0 -98.122 0
-  m_aUnitPrefabSlots +{
+  m_aUnitPrefabSlots {
+   "{0FD2C9F23AABB847}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_PL_P.et"
+   "{6E9A64D6E938EFA8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_PSG_P.et"
    "{FC2BC8152641F5B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Medic_P.et"
   }
   m_bSnapToTerrain 0
+  m_sCustomNameSet "TROOP 1"
   m_bSetPlayable 1
  }
  {
@@ -95,6 +113,22 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    "{0F5D5571EA5FF983}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Sniper_P.et"
    "{3BAAEC73133A6BA6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Spotter_P.et"
   }
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7080.437 41.344 1378.282
+  angles 0 -97.532 0
+  m_aUnitPrefabSlots {
+   "{0FD2C9F23AABB847}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_PL_P.et"
+   "{C56483028A620D0C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_JTAC_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "A Squadron"
   m_bSetPlayable 1
  }
 }
