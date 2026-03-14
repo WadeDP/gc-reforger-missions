@@ -33,7 +33,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
        }
       }
       m_aPlatoonNames {
-       SCR_CallsignInfo "{68D85795B41630F5}" {
+       SCR_CallsignInfo "{68DD20F36295999B}" {
         m_sCallsign "HQ"
        }
        SCR_CallsignInfo "{55CCB792CE6E998D}" {
