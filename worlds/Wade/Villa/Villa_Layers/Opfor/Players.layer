@@ -1,51 +1,52 @@
 SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_PHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
+   DefaultFormation ""
   }
   PS_GroupCallsignAssigner "{68D821CE7C62E6B5}" {
   }
  }
- coords 2850.042 52.937 4955.824
+ coords 2848.476 50.681 4991.893
+ angles 0 0.611 0
  m_bSetPlayable 1
 }
 $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
+    DefaultFormation ""
    }
    PS_GroupCallsignAssigner "{68D821CE6250518D}" {
    }
   }
-  coords 2851.954 52.938 4954.074
-  angles 0 5.961 0
+  coords 2844.203 50.682 4988.64
+  angles 0 6.572 0
   m_sCustomNameSet "Cell 1"
   m_bSetPlayable 1
  }
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
+    DefaultFormation ""
    }
    PS_GroupCallsignAssigner "{68D821CE7E2E346A}" {
    }
   }
-  coords 2851.008 52.937 4950.946
-  angles 0 6.213 0
+  coords 2843.224 50.562 4985.522
+  angles 0 6.824 0
   m_sCustomNameSet "Cell 2"
   m_bSetPlayable 1
  }
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
+    DefaultFormation ""
    }
    PS_GroupCallsignAssigner "{68D821CE7BFB1474}" {
    }
   }
-  coords 2849.823 52.937 4947.609
-  angles 0 9.485 0
+  coords 2842.003 50.681 4982.198
+  angles 0 10.096 0
   m_sCustomNameSet "Cell 3"
   m_bSetPlayable 1
  }

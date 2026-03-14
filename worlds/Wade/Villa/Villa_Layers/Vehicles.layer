@@ -5,23 +5,75 @@ Vehicle AH6M_Armed_base1 : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/
 }
 $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
  MH6M4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    MultiSlots {
+     MultiSlotConfiguration "{68DD210405E820A1}" {
+      SlotTemplate InventoryStorageSlot TacticalLadder {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
   coords 7042.708 41.344 1396.306
   angles 0 85.185 0
   m_sAttachmentGroupName "G1"
  }
  MH6M2 {
-  coords 7044.043 41.344 1375.902
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    MultiSlots {
+     MultiSlotConfiguration "{68DD210405E820A1}" {
+      SlotTemplate InventoryStorageSlot TacticalLadder {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 7044.153 41.343 1376.09
   angles 0 85.185 0
-  m_sAttachmentGroupName "G2"
+  m_sAttachmentGroupName "G1"
  }
- MH6M6 {
-  coords 7046.694 41.245 1336.221
+ MH6M3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    MultiSlots {
+     MultiSlotConfiguration "{68DD210405E820A1}" {
+      SlotTemplate InventoryStorageSlot TacticalLadder {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 7045.461 41.343 1353.314
   angles 0 85.185 0
-  m_sAttachmentGroupName "G4"
+  m_sAttachmentGroupName "G1"
  }
- MH6M8 {
-  coords 7045.359 41.343 1356.625
+ MH6M5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    MultiSlots {
+     MultiSlotConfiguration "{68DD210405E820A1}" {
+      SlotTemplate InventoryStorageSlot TacticalLadder {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 7046.432 41.032 1334.454
   angles 0 85.185 0
-  m_sAttachmentGroupName "G3"
+  m_sAttachmentGroupName "G1"
  }
+}
+Vehicle M923A1_repair_MERDC1 : "{C8656AECF5DF41D9}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_MERDC.et" {
+ coords 7112.267 40.201 1342.126
+ angles 0 -31.321 0
 }

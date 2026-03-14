@@ -1,3 +1,29 @@
+ParticleEffectEntity {
+ coords 2792.389 51.514 4997.95
+ EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+}
+Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ coords 2839.477 53.089 4964.672
+ angles 0 93.149 0
+}
+$grp StaticModelEntity : "{51AB40A39B944585}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ {
+  coords 2876.19 52.938 4987.9
+  angles 0 7.368 0
+ }
+ {
+  coords 2888.699 52.938 4977.75
+  angles 0 93.414 0
+ }
+ {
+  coords 2784.512 52.938 4880.135
+  angles 0 -173.371 0
+ }
+ {
+  coords 2782.438 52.937 4887.546
+  angles 0 -38.299 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{63435DF65F8B3774}Prefabs/Structures/Wall/militarywall.et" {
  {
   coords 2826.235 10.197 4913.265
@@ -6,5 +32,133 @@ $grp SCR_DestructibleBuildingEntity : "{63435DF65F8B3774}Prefabs/Structures/Wall
  {
   coords 2822.676 10.194 4913.569
   angles 0.281 -83.982 -89.868
+ }
+}
+GenericEntity : "{73363BBA2AEA463C}PrefabsEditable/Auto/Props/Garbage/Tires/E_TirePile_01_medium.et" {
+ coords 2794.738 52.938 4996.786
+}
+$grp GenericEntity : "{932D432E1D7D726D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_Sandbag_MG_USSR_01_PKM.et" {
+ {
+  coords 2797.701 52.938 4906.698
+  angles 0 -84.024 0
+  {
+   GenericEntity {
+    ID "570C9564D02F5C92"
+    coords 0.02 0 -0.53
+    angles 0 90.188 0
+   }
+   GenericEntity {
+    ID "5C5AC612D4755239"
+    coords -0.122 0.367 0.28
+    angles 0 180 0
+   }
+   GenericEntity {
+    ID "5C5AC612D47552FB"
+    coords 0.037 0.202 0.391
+   }
+  }
+ }
+ {
+  coords 2884.075 53.014 4985.139
+  angles 0 31.032 0
+  {
+   GenericEntity {
+    ID "570C9564D02F5C92"
+    coords 0.02 0 -0.53
+    angles 0 90.188 0
+   }
+   GenericEntity {
+    ID "5C5AC612D4755239"
+    coords -0.122 0.367 0.28
+    angles 0 180 0
+   }
+   GenericEntity {
+    ID "5C5AC612D47552FB"
+    coords 0.037 0.202 0.391
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 2799.689 52.937 4913.655
+  angles 0 95.769 0
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 2802.26 53.158 4914.521
+  angles 0 4.44 0
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 2801.395 53.157 4903.192
+  angles 0 4.44 0
+ }
+}
+GenericEntity : "{B728C4AE0E6EB1E8}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Equipment_USSR.et" {
+ components {
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68DD2104D154A082}" {
+     SlotTemplate InventoryStorageSlot sandbags {
+      Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+     }
+     NumSlots 200
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   Enabled 0
+  }
+ }
+ coords 2844.259 50.554 4992.393
+ angles 0 6.398 0
+}
+GenericEntity : "{BBA9E7B2D06B7E3E}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallSolidBurlap_S_USSR_01.et" {
+ coords 2799.182 52.937 4910.95
+ angles 0 96.221 0
+ {
+  GenericEntity {
+   ID "5D70BA356CD2E641"
+   coords -0.019 0 0.295
+   angles 0 -1.755 0
+  }
+ }
+}
+$grp GenericEntity : "{C8A95738F4ED0644}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_round_high_burlap_Deployable.et" {
+ {
+  coords 2843.461 52.49 4965.537
+  angles 0 61.263 0
+ }
+ {
+  coords 2843.008 52.49 4963.116
+  angles 0 139.622 0
+ }
+ {
+  coords 2836.715 52.484 4963.649
+  angles 0 -123.205 0
+ }
+ {
+  coords 2836.978 52.484 4966.099
+  angles 0 -44.847 0
  }
 }

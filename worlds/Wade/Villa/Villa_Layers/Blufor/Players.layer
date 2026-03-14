@@ -302,8 +302,8 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
     m_iPlatoonCallsign 6
    }
   }
-  coords 7050.985 41.344 1383.806
-  angles 0 93.456 0
+  coords 7048.235 41.344 1384.196
+  angles 0 82.461 0
   m_aUnitPrefabSlots {
    "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
   }
