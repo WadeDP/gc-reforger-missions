@@ -1,0 +1,49 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Situation {
+  coords 2875.736 52.937 4984.86
+  m_sTitle "Situation"
+  m_sTextData "A high value target is being held by OPFOR units inside a villa. Both sides need this target to progress their influence upon the region."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ Mission {
+  coords 2831.377 52.938 4957.51
+  m_sTitle "Mission"
+  m_sTextData "Conduct a hasty raid on the Villa in order to secure and extract the HVT back to the FOB."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 1
+ }
+ Execution {
+  coords 2867.034 53.871 4979.507
+  m_sTitle "Execution "
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 2
+ }
+ C_and_S {
+  coords 2855.87 52.938 4950.259
+  m_sTitle "Command and Signal"
+  m_sTextData "Dictated by A Squadron HQ."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 4
+ }
+ Sustainment {
+  coords 2832.118 53.047 4979.072
+  m_sTitle "Sustainment"
+  m_sTextData "2x PLT of Delta"\
+  "4x Transport Littlebirds"\
+  "1x Attack Little Birds"\
+  "1x Repair Truck"\
+  "1x Tactical ladder in each transport Littlebird"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 3
+ }
+}

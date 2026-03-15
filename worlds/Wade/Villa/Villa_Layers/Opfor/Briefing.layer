@@ -1,0 +1,48 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Sustainment2 {
+  coords 7178.267 45.345 1507.942
+  m_sTitle "Sustainment"
+  m_sTextData "200x sandbags inside a crate"\
+  ""
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+  m_iOrder 3
+ }
+ C_and_S2 {
+  coords 7202.019 45.235 1479.129
+  m_sTitle "Command and Signal"
+  m_sTextData "Dictated by Cell leader."
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+  m_iOrder 4
+ }
+ Execution2 {
+  coords 7213.184 46.168 1508.377
+  m_sTitle "Execution "
+  m_sTextData "Create defenses and attrit BLUFOR from continuing their raid and capturing our HVT."
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+  m_iOrder 2
+ }
+ Mission2 {
+  coords 7177.526 45.236 1486.38
+  m_sTitle "Mission"
+  m_sTextData "Create a hasty defense and prevent BLUFOR from capturing and extracting our HVT."
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+  m_iOrder 1
+ }
+ Situation2 {
+  coords 7221.885 45.235 1513.73
+  m_sTitle "Situation"
+  m_sTextData "Our insurgent cell currently has control of a high value target that progresses our influence in the region. BLUFOR is aware of his location and needs to capture him in order to remove that influence. HVT is beneficial to both sides and is needed to be kept alive and unharmed."\
+  ""
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+}
