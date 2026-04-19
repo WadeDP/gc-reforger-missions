@@ -1,6 +1,9 @@
 PS_ManualMarker : "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et" {
  ID "5EDF4803173675DF"
- m_fWorldSize 300
+ m_sImageSetGlow ""
+ m_MarkerColor 0.502 0 0 0.394
+ m_sQuadName "dot"
+ m_fWorldSize 500
  m_aVisibleForFactions {
  }
  m_bShowForAnyFaction 1

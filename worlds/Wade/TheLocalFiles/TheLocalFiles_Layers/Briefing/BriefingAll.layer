@@ -22,6 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "Leaderboard Computers Searched"\
   "Scout: 1"\
+  "ReddishRed: 6"\
   ""\
   "Two opposing contracted forces deploy from separate aircraft carriers and compete to locate, capture, and extract a single High Value Target (HVT), while an Independent protection element works to keep the HVT free and alive. "\
   ""\
