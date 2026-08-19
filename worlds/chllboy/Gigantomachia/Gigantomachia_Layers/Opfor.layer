@@ -33,9 +33,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ECH left"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{68C8B72832E6109A}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 2
    }
@@ -56,9 +57,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Ech left"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{68C8B7283A6C3ACC}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 3
    }
@@ -79,9 +81,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ECH left"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{68C8B728C20C366B}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 4
    }
@@ -102,9 +105,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ech left"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{68C8B728DBFE6D5D}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
@@ -123,9 +127,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ech left"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{68C8B728F4C202EF}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 5
    }
@@ -142,9 +147,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Ech left"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{68C8B728FAEF058B}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 6
    }
@@ -161,9 +167,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
 SCR_AIGroup : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INSURGENT_PHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "ECH left"
+   Enabled 0
   }
-  PS_GroupCallsignAssigner "{68C8B72820578CF5}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iPlatoonCallsign 1
   }
  }

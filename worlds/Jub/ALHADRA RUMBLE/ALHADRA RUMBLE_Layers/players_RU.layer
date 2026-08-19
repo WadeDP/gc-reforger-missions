@@ -1,9 +1,10 @@
 SCR_AIGroup ru_mr_hq : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_PHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+   Enabled 0
   }
-  PS_GroupCallsignAssigner "{66033D8C591570A5}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
   }
  }
  coords 2411.431 17.866 1894.174
@@ -22,9 +23,10 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
  ru_mr_sq1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8CA581BED8}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 1
    }
   }
@@ -44,9 +46,10 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
  ru_mr_sq2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8CB25DD38E}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 2
    }
   }
@@ -66,9 +69,10 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
  ru_mr_sq3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8CB25DD38E}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 3
    }
   }
@@ -90,9 +94,10 @@ $grp SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
  ru_sso_hq {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8C77D01B38}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 5
    }
@@ -119,9 +124,10 @@ $grp SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
  ru_sso_hq2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8C77D01B38}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 9
    }
@@ -174,6 +180,11 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
      }
      NumSlots 1
     }
+    MultiSlotConfiguration "{632EA9BEBE5C68D5}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+     }
+     NumSlots 2
+    }
    }
   }
  }
@@ -183,9 +194,10 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
  ru_sso_sq1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8C79D64A99}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 6
    }
@@ -207,9 +219,10 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
  ru_sso_sq2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8C42857831}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 7
    }
@@ -231,9 +244,10 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
  ru_sso_sq4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8C79D64A99}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 11
    }
@@ -255,9 +269,10 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
  ru_sso_sq3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{66033D8C42857831}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 10
    }
